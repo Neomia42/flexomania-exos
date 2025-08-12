@@ -18,16 +18,12 @@ h2 {
 }
 
 /* EXERCICE 1 */
-.exercice1 {
-  display: flex;
-}
+
 .exercice1 ul {
   display: flex;
 }
 /* EXERCICE 2 */
-.exercice2 {
-  display: flex;
-}
+
 .exercice2 ul {
   width: 100%;
   flex-direction: row-reverse;
@@ -35,30 +31,25 @@ h2 {
   display: flex;
 }
 /* EXERCICE 3 */
-.exercice3 {
-  display: flex;
-}
+
 .exercice3 ul {
   display: flex;
-  width: 100%;
 }
-.exercice3 ul li {
+.exercice3 li {
   display: flex;
   flex: 1;
   justify-content: center;
+  width: 100%;
 }
 /* EXERCICE 4 */
-.exercice4 {
-  display: flex;
-}
+
 .exercice4 ul {
   display: flex;
-  flex: 1;
   gap: 15px;
 }
-.exercice4 ul li {
+.exercice4 li {
   display: flex;
-  width: 150px;
+  width: 200px;
   justify-content: center;
 }
 .exercice4 ul :nth-child(2) {
@@ -79,9 +70,7 @@ h2 {
   justify-content: center;
 }
 /* EXERCICE 7 */
-.exercice7 {
-  display: flex;
-}
+
 .exercice7 ul {
   display: flex;
   width: 100%;
